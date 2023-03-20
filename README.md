@@ -10,7 +10,7 @@ from dataset import ITTechDataset
 from model import ITTechModel
 
 # Create a new dataset object and load data
-dataset = ITTechDataset(file_path="datasets/output_2022-11-11_03:24.csv")
+dataset = ITTechDataset(file_path="datasets/texts_with_labels.csv")
 
 # Create and train model
 model = ITTechModel(dataset=dataset)
@@ -31,7 +31,7 @@ from dataset import ITTechDataset
 from model import ITTechModel
 
 # Create a new dataset object and load data
-dataset = ITTechDataset(file_path="datasets/output_2022-11-11_03:24.csv")
+dataset = ITTechDataset(file_path="datasets/texts_with_labels.csv")
 
 # Train and save model to disk
 model = ITTechModel(dataset=dataset, model_path="./model/tech_model.joblib")
